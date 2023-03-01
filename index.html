@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   
+   <link rel="stylesheet" href="style.css">
+   <title>Galery with filter</title>
+</head>
+<body>
+   
+   <h3>Galery</h3>
+   <div class="filter" id="filter">
+      <label for="filter-location">filters: </label>
+      <select name="filter-location" id="filter-location">
+         <option value="location" selected disabled>location</option>
+         <option value="all">all</option>
+         <option value="medan">Medan</option>
+         <option value="jakarta">Jakarta</option>
+      </select>
+   </div>
+   <div class="galery" id="galery">
+      <div id="galery__loc-medan" class="medan">
+         <div id="medan">
+            <div class="card">
+               <h4 class="medan">Medan</h4>
+            </div>
+            <div class="card">
+               <h4 class="medan">Medan</h4>
+            </div>
+            <div class="card">
+               <h4 class="medan">Medan</h4>
+            </div>
+         </div>
+      </div>
+      <div id="galery__loc-jakarta">
+         <div id="jakarta">
+            <div class="card">
+               <h4 class="jakarta">Jakarta</h4>
+            </div>
+            <div class="card">
+               <h4 class="jakarta">Jakarta</h4>
+            </div>
+            <div class="card">
+               <h4 class="jakarta">Jakarta</h4>
+            </div>
+         </div>
+      </div>
+   </div>
+   
+   <script src="main.js"></script>
+</body>
+</html>
